@@ -240,7 +240,7 @@ export default function StartupNamer() {
         <p className="flex items-center">
           <span className="text-xl">👨‍💻</span>
           <span className="ml-2 font-semibold">
-            By <a href="https://www.instagram.com/37mohammd/?hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">37mohammd</a>
+            By <a href="https://www.instagram.com/37mohammd/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">37mohammd</a>
           </span>
         </p>
         <p className="flex items-center">

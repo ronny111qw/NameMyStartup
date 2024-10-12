@@ -246,7 +246,7 @@ export default function StartupNamer() {
         <p className="flex items-center">
           <span className="text-xl">🌐</span>
           <span className="ml-2 font-semibold">
-            Visit <a href="https://startup-names-by-ai.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">my Vercel Site</a>
+            Visit <a href="https://present-ai-three.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">my Vercel Site</a>
           </span>
         </p>
       </div>

@@ -77,10 +77,9 @@ export default function StartupNamer() {
       const response = await result.response;
       const text = await response.text();
 
-      let jsonString = text.trim().replace(/```json\n?|```/g, "").trim();
-
-      let generatedNames: { name: string }[] = JSON.parse(jsonString);
-
+      const jsonString = text.trim().replace(/```json\n?|```/g, "").trim();
+      const generatedNames: { name: string }[] = JSON.parse(jsonString);
+      
       if (!Array.isArray(generatedNames)) {
         throw new Error("Generated content is not an array");
       }
@@ -241,7 +240,7 @@ export default function StartupNamer() {
         <p className="flex items-center">
           <span className="text-xl">👨‍💻</span>
           <span className="ml-2 font-semibold">
-            By <a href="https://www.instagram.com/37mohammd/?hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">myacc</a>
+            By <a href="https://www.instagram.com/37mohammd/?hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">37mohammd</a>
           </span>
         </p>
         <p className="flex items-center">

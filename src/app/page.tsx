@@ -255,6 +255,7 @@ export default function StartupNamer() {
           <span className="ml-2 font-semibold">
             Github <a href="https://github.com/ronny111qw" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ronny111qw</a>
           </span>
+          <Analytics/>
         </p>
       </div>
     </div>

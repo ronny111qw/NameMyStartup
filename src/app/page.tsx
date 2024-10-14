@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import axios from 'axios'
 import { Input } from "@/components/ui/input"
